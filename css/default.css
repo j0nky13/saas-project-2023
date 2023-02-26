@@ -1,0 +1,75 @@
+:root {
+    --white: #ffff;
+    --black: #0000;
+    --gray: #808080;
+    --dark-gray: #4c4c4c;
+    --blue: #5d78ff;
+    --font-size-1: 1rem;
+    --font-size-2: 2rem;
+    --font-size-3: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 200px;
+}
+
+.btn {
+    font-size: .8rem;
+    color: var(--white);
+    /* margin-right: 1rem; */
+    padding: .7rem .4rem;
+    border-radius: 25px;
+    background-color: var(--blue);
+    max-width: 140px;
+    text-align: center;
+}
+
+
+/* 
+arrow 
+<i class="fa-light fa-angle-right"></i>
+<i class="fa-sharp fa-solid fa-angle-right"></i>
+
+play button
+<i class="fa-solid fa-play"></i>
+
+
+google 
+<i class="fa-brands fa-google"></i>
+
+facebook
+<i class="fa-brands fa-facebook-f"></i>
+
+twitter 
+<i class="fa-brands fa-twitter"></i>
+
+github
+<i class="fa-brands fa-github"></i>
+
+
+flags
+
+USA- 
+https://icons8.com/icon/fIgZUHgwc76e/usa
+
+ENGLAND-
+https://icons8.com/icon/t3NE3BsOAQwq/great-britain
+
+RUSSIA- 
+
+https://icons8.com/icon/dHLUcDM_MwLT/russian-federation
+
+*/

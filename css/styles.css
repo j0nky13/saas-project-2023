@@ -1,0 +1,181 @@
+/* .company-logo>img {
+    width: 100px;
+} */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list>ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list a {
+    padding-right: .5rem;
+}
+
+.company-logo {
+    margin-right: auto;
+}
+
+.buy-now {
+    padding: .5rem 1rem;
+    background-color: var(--blue);
+    border-radius: 25px;
+}
+
+.main-header {
+    height: 500px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.title-links {
+    display: flex;
+    align-items: center;
+}
+
+.title-links a {
+    align-content: center;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.benefit-grid {
+    display: grid;
+    grid-template-areas: "item1 item2 item3 item4";
+}
+
+.responsive {
+    grid-area: item1;
+}
+
+.customizable {
+    grid-area: item2;
+}
+
+.premium {
+    grid-area: item3;
+}
+
+.documentation {
+    grid-area: item4;
+}
+
+.benefit-card {
+    max-width: 200px;
+}
+
+.benefit-card>img {
+    width: 55px;
+}
+
+.point {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.customer-logos {
+    display: flex;
+}
+
+.cl-logo-item {
+    margin-right: 2rem;
+}
+
+.cl-logo-item:nth-child(5) {
+    margin: 0;
+}
+
+.cl-logo-item img {
+    width: 100px;
+}
+
+.pg-item {
+    width: 50px;
+}
+
+
+/* carousel for faces */
+
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 20px;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    position: relative;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quote-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name,
+.job-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.carousel-faces {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.face {
+    margin: 0 10px;
+}
+
+.face img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.active-face img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #fff;
+}
+
+.carousel-slide.active-slide {
+    z-index: 1;
+    display: block;
+}
+
+.face.active-face {
+    font-size: 1.2em;
+}

@@ -1,0 +1,18 @@
+/* Desktop sizing */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (max-width: 1024px) {}
+
+
+/* ipad/tablet */
+
+@media (max-width: 768px) {}
+
+
+/* mobile */
+
+@media (max-width: 375px) {}
