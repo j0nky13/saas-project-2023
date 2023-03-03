@@ -158,14 +158,14 @@
 
 .name,
 .job-title {
-    font-size: 16px;
+    font-size: .9rem;
     font-weight: bold;
     margin: 0;
 }
 
 .carousel-faces {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 20px;
 }
 
@@ -226,8 +226,8 @@ textarea {
 }
 
 input {
-    height: 2rem;
-    width: 175px;
+    /* height: 2rem; */
+    /* width: 175px; */
     /* padding: 1rem; */
 }
 
@@ -238,4 +238,47 @@ textarea {
 .option {
     height: 2rem;
     width: 175px;
+}
+
+.checkbox-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* font-size: .8rem; */
+}
+
+.checkbox-info label,
+a {
+    font-size: .8rem;
+}
+
+.form-links {
+    margin-bottom: 1rem;
+}
+
+.form-btn {
+    margin: auto;
+}
+
+.footer-main>hr {
+    width: auto;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.middle-footer {
+    display: flex;
+}
+
+.map {
+    margin-right: auto;
+}
+
+.bottom-footer {
+    text-align: center;
+    font-size: .8rem;
 }
