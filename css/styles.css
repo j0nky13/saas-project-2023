@@ -83,23 +83,25 @@
     margin: 3rem auto;
 }
 
+
+/* under this code  */
+
 .why-dots {
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: auto;
     grid-auto-flow: column;
-    margin-bottom: 3rem;
-}
-
-.why-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* margin-bottom: 3rem; */
 }
 
 .why-dots .why-item:first-child>.dot-gray::before,
 .why-dots .why-item:last-child>.dot-gray::after {
     content: unset;
+}
+
+.why-item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
 }
 
 .why-item .dot-gray {
@@ -133,7 +135,6 @@
 
 .dot-blue {
     display: flex;
-    /* align-content: center; */
     justify-content: center;
     background-color: lightgray;
     padding: 15px;
@@ -141,18 +142,25 @@
     border-radius: 50%;
 }
 
+.why-item .dot-gray .dot-blue {
+    grid-column: 2/span 1;
+    width: 50px;
+    height: 50px;
+    background-color: #ECF2FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .dot {
     background-color: var(--blue);
     border-radius: 50%;
-    /* margin: auto; */
     padding: 3px;
     width: 1px;
 }
 
-.why-span {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.why-item>span {
     text-align: center;
 }
 
