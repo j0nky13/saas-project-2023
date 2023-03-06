@@ -228,6 +228,8 @@
 .started-title h1 {
     max-width: 400px;
     margin-bottom: 2rem;
+    font-weight: 200;
+    font-size: 1.8rem;
 }
 
 .started-img>img {
@@ -533,6 +535,7 @@
 /* hire us area */
 
 .hire-us {
+    margin: 0 auto;
     background-color: var(--dark-blue);
 }
 
@@ -630,6 +633,7 @@
     display: flex;
     justify-content: center;
     padding: 3rem 0;
+    margin-bottom: 2rem;
 }
 
 hr {
