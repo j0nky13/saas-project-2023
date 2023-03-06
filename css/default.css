@@ -14,7 +14,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    /* font-family: 'poppins', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul,
@@ -31,6 +32,10 @@ section {
     margin: 8rem auto;
 }
 
+.subtext {
+    color: var(--gray);
+}
+
 .btn {
     font-size: .8rem;
     color: var(--white);
@@ -40,6 +45,13 @@ section {
     background-color: var(--blue);
     max-width: 140px;
     text-align: center;
+}
+
+.sketch {
+    background-color: lightgreen;
+    padding: .3rem .5rem;
+    border-radius: 25px;
+    margin-left: .2rem;
 }
 
 

@@ -1,3 +1,10 @@
+// animated icons
+
+
+
+
+// Review carousel
+
 let slides = document.querySelectorAll('.carousel-slide');
 let faces = document.querySelectorAll('.face');
 let currentIndex = 0;

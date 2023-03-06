@@ -30,9 +30,108 @@
     height: 500px;
 }
 
-.hero-section {
+
+/* .hero-section {
     display: flex;
     align-items: center;
+} */
+
+
+/* header services */
+
+
+/* .header-services {
+    margin-left: auto;
+} */
+
+.hero-wrapper .header-services .service-logo .google {
+    /* width: 50px;
+    padding: 1rem;
+    border-radius: 25%; */
+    /* position: relative; */
+    top: 20px;
+    left: 20px;
+}
+
+.hero-wrapper .header-services .service-logo .atlassian {
+    /* width: 60px; */
+    /* position: relative; */
+    top: 20px;
+    left: 140px;
+}
+
+.hero-wrapper .header-services .service-logo .asana {
+    /* width: 60px; */
+    /* position: relative; */
+    top: 25px;
+    right: 0;
+}
+
+.hero-wrapper .header-services .service-logo .paypal {
+    /* width: 65px; */
+    /* position: relative; */
+    top: 105px;
+    /* right: 510px; */
+}
+
+.hero-wrapper .header-services .service-logo .weave {
+    /* width: 60px; */
+    /* position: relative; */
+    top: 180px;
+    right: 140px;
+}
+
+.hero-wrapper .header-services .service-logo .google-ads {
+    /* width: 30px; */
+    /* position: relative; */
+    top: 300px;
+    right: 95px;
+}
+
+.hero-wrapper .header-services .service-logo .calendar {
+    /* width: 50px; */
+    /* position: relative; */
+    top: 320px;
+    right: 0;
+}
+
+.hero-wrapper .header-services .service-logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px 2px #e2e2e2;
+}
+
+.header-services .service-logo {
+    height: 90px;
+    width: 90px;
+}
+
+.service-logo img {
+    width: 50%;
+    height: 50%;
+    /* box-shadow: 0px 0px 5px 5px lightgray;
+    border-radius: 50%; */
+    /* padding: 2rem; */
+    /* padding: .5rem; */
+}
+
+.hero-title {
+    margin-top: 7rem;
+}
+
+.hero-title h1 {
+    text-align: left;
+}
+
+.hero-title h1,
+.subtext p {
+    margin: 1rem 0;
+    line-height: 1.3;
 }
 
 .title-links {
@@ -48,9 +147,41 @@
     text-align: center;
 }
 
+.learn-btn {
+    margin-left: 2rem;
+}
+
+
+/* benefits */
+
+.benefit-title {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.benefit-title h2 {
+    margin-bottom: .7rem;
+}
+
 .benefit-grid {
     display: grid;
     grid-template-areas: "item1 item2 item3 item4";
+    margin: auto;
+    /* gap: 2rem; */
+    max-width: 950px;
+}
+
+.benefit-card {
+    line-height: 1.5;
+    /* border: 1px solid black; */
+    padding: 1.2rem;
+    box-shadow: 2px 3px 7px 5px lightgray;
+}
+
+.benefit-card>h5 {
+    margin: .5rem;
 }
 
 .responsive {
@@ -77,14 +208,39 @@
     width: 55px;
 }
 
-.why-title {
-    text-align: center;
-    max-width: 800px;
-    margin: 3rem auto;
+.learn-btn a {
+    color: var(--blue);
 }
 
 
-/* under this code  */
+/* started shit lol*/
+
+.started {
+    display: flex;
+}
+
+.started-title {
+    text-align: left;
+    margin: auto;
+}
+
+.started-title h1 {
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+.started-img>img {
+    max-width: 500px;
+}
+
+
+/* why area */
+
+.why-title {
+    text-align: center;
+    max-width: 700px;
+    margin: 3rem auto;
+}
 
 .why-dots {
     display: grid;
@@ -164,16 +320,102 @@
     text-align: center;
 }
 
-.model-photo img {
+.video {
+    margin: 5rem auto;
+    background-image: url(/assets/banners/banner_two.jpg);
+    height: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video .play>i {
+    position: relative;
+    top: 207px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    padding-left: 1.8rem;
+    font-size: 1.5rem;
+}
+
+
+/* hubspot model area */
+
+.hub-flex {
+    display: flex;
+    align-items: center;
+}
+
+.model-photo {
+    background-image: url(/assets/people/woman_three.jpg);
+    background-repeat: no-repeat;
     width: 400px;
+    height: 400px;
+    background-size: contain;
+    position: relative;
+    left: 150px;
+}
+
+.bg-dots {
+    background-image: url(/assets/abstract/dots.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    top: 100px;
+    right: 50px;
+    width: 200px;
+    height: 350px;
+    z-index: -1;
+}
+
+
+/* .model-photo img,
+.bg-dots img {
+    width: 400px;
+} */
+
+
+/* .bg-dots img {
+    width: 400px;
+    position: relative;
+    top: -50px;
+} */
+
+.hubspot-desc {
+    max-width: 470px;
+    /* font-size: var(--font-size-1); */
+    line-height: 2;
+    margin-left: auto;
+}
+
+.hubspot-desc h5 {
+    margin-top: 3rem;
+}
+
+.hubspot-desc img {
+    max-width: 100px;
+}
+
+
+/* trusted area */
+
+.customers h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .customer-logos {
     display: flex;
+    justify-content: center;
+    /* align-content: space-between; */
 }
 
 .cl-logo-item {
-    margin-right: 2rem;
+    margin: 0 4rem;
+    /* margin-right: 2rem; */
 }
 
 .cl-logo-item:nth-child(5) {
@@ -181,12 +423,91 @@
 }
 
 .cl-logo-item img {
-    width: 100px;
+    width: 125px;
+}
+
+
+/* pricing area */
+
+.pricing .container {
+    max-width: 800px;
+}
+
+.pricing .title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pricing-card h2 {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    /* border-width: 100; */
+}
+
+.big-price {
+    font-size: 3rem;
+}
+
+.pricing-card>.btn {
+    margin-top: 3rem;
+}
+
+.no-card {
+    margin-top: 1rem;
+}
+
+.pricing-flex {
+    display: flex;
+    justify-content: center
 }
 
 .pg-item {
+    max-width: 200px;
+}
+
+.pg-item img {
     width: 50px;
 }
+
+.pricing-area {
+    display: flex;
+    max-width: 350px;
+    margin: auto;
+}
+
+.pricing-card {
+    max-width: 400px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-areas: "grid1 grid2""grid3 grid4";
+    gap: 2rem;
+    align-content: center;
+}
+
+.grid-comp {
+    grid-area: grid1;
+}
+
+.grid-images {
+    grid-area: grid2;
+}
+
+.grid-cancel {
+    grid-area: grid3;
+}
+
+.grid-money {
+    grid-area: grid4;
+}
+
+
+/* .grid-comp, .grid-images, .grid-cancel, .grid-money  */
+
+
+/* hire us area */
 
 .hire-us {
     background-color: var(--dark-blue);
