@@ -671,21 +671,67 @@ a {
 
 .footer-main>hr {
     width: auto;
+    margin-bottom: 2rem;
 }
 
 .footer-top {
     display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+    line-height: 2;
+    margin-top: -6rem;
+}
+
+.footer-top h5 {
+    font-size: 1.2rem;
+}
+
+.we-are-hiring {
+    font-size: .8rem;
+    margin-left: .8rem;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.company-item li:nth-child(2) {
+    color: blue;
 }
 
 .middle-footer {
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .map {
     margin-right: auto;
 }
 
+.map a {
+    color: gray;
+}
+
 .bottom-footer {
     text-align: center;
     font-size: .8rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+.social a {
+    color: gray;
+}
+
+.social i {
+    background-color: lightgray;
+    padding: .5rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.social select {
+    padding: .4rem;
+    background-color: lightgray;
 }
