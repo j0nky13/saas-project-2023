@@ -171,6 +171,7 @@
     margin: auto;
     /* gap: 2rem; */
     max-width: 950px;
+    justify-items: center;
 }
 
 .benefit-card {
@@ -239,7 +240,15 @@
 .why-title {
     text-align: center;
     max-width: 700px;
-    margin: 3rem auto;
+    margin: 4rem auto;
+}
+
+.why-title h2 {
+    margin-bottom: 1rem;
+}
+
+.why-title p {
+    line-height: 1.5rem;
 }
 
 .why-dots {
@@ -430,12 +439,17 @@
 /* pricing area */
 
 .pricing .container {
-    max-width: 800px;
+    max-width: 950px;
 }
 
 .pricing .title {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    line-height: 2;
+}
+
+.pricing .title h3 {
+    font-size: 2rem;
 }
 
 .pricing-card h2 {
@@ -463,7 +477,7 @@
 }
 
 .pg-item {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .pg-item img {
@@ -478,6 +492,9 @@
 
 .pricing-card {
     max-width: 400px;
+    line-height: 1.5;
+    box-shadow: 3px 0 10px 0px lightgray;
+    padding: 2rem;
 }
 
 .pricing-grid {
@@ -485,6 +502,12 @@
     grid-template-areas: "grid1 grid2""grid3 grid4";
     gap: 2rem;
     align-content: center;
+    line-height: 1.5;
+}
+
+.pricing-grid h5 {
+    font-size: 1rem;
+    margin: .8rem 0;
 }
 
 .grid-comp {
@@ -680,19 +703,11 @@ a {
     justify-content: space-evenly;
     padding: 3rem 0;
     line-height: 2;
-    margin-top: -6rem;
+    /* margin-top: -6rem; */
 }
 
 .footer-top h5 {
     font-size: 1.2rem;
-}
-
-.we-are-hiring {
-    font-size: .8rem;
-    margin-left: .8rem;
-    padding: .2rem .4rem;
-    border-radius: 5px;
-    background-color: var(--blue);
 }
 
 .company-item li:nth-child(2) {

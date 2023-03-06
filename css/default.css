@@ -52,6 +52,15 @@ section {
     padding: .3rem .5rem;
     border-radius: 25px;
     margin-left: .2rem;
+    font-size: .8rem;
+}
+
+.we-are-hiring {
+    font-size: .8rem;
+    margin-left: .8rem;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    background-color: var(--blue);
 }
 
 
