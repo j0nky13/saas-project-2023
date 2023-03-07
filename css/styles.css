@@ -30,11 +30,10 @@
     height: 500px;
 }
 
-
-/* .hero-section {
+.hero-section {
     display: flex;
     align-items: center;
-} */
+}
 
 
 /* header services */
@@ -44,55 +43,55 @@
     margin-left: auto;
 } */
 
-.hero-wrapper .header-services .service-logo .google {
+.google {
     /* width: 50px;
     padding: 1rem;
     border-radius: 25%; */
     /* position: relative; */
-    top: 20px;
-    left: 20px;
+    top: 100px;
+    right: 620px;
 }
 
-.hero-wrapper .header-services .service-logo .atlassian {
+.atlassian {
     /* width: 60px; */
     /* position: relative; */
-    top: 20px;
-    left: 140px;
+    top: 90px;
+    right: 440px;
 }
 
-.hero-wrapper .header-services .service-logo .asana {
+.asana {
     /* width: 60px; */
-    /* position: relative; */
-    top: 25px;
-    right: 0;
-}
-
-.hero-wrapper .header-services .service-logo .paypal {
-    /* width: 65px; */
     /* position: relative; */
     top: 105px;
-    /* right: 510px; */
+    right: 175px;
 }
 
-.hero-wrapper .header-services .service-logo .weave {
+.paypal {
+    /* width: 65px; */
+    /* position: relative; */
+    top: 255px;
+    right: 510px;
+}
+
+.weave {
     /* width: 60px; */
     /* position: relative; */
-    top: 180px;
-    right: 140px;
+    top: 257px;
+    right: 340px;
 }
 
-.hero-wrapper .header-services .service-logo .google-ads {
+.google-ads {
     /* width: 30px; */
     /* position: relative; */
-    top: 300px;
-    right: 95px;
+    top: 320px;
+    right: 420px;
 }
 
-.hero-wrapper .header-services .service-logo .calendar {
+.calendar {
     /* width: 50px; */
     /* position: relative; */
-    top: 320px;
-    right: 0;
+    top: 340px;
+    right: 205px;
 }
 
 .hero-wrapper .header-services .service-logo {
