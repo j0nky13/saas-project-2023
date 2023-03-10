@@ -1,123 +1,115 @@
-/* .company-logo>img {
-    width: 100px;
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    color: var(--gray);
+    min-width: 1024px;
+    margin: auto;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: var(--gray);
+    padding: 1rem;
+}
+
+
+/* .navbar-links li a:nth-child(5) {
+    color: var(--white);
 } */
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
+
+/* .navbar-links li:hover {
+    background-color: #555;
+} */
+
+
+/* .navbar-links li a:nth-child(5) {
+    color: var(--white);
+} */
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 }
 
-.nav-list>ul {
-    display: flex;
-    flex-direction: row;
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--gray);
+    border-radius: 10px;
 }
 
-.nav-list a {
-    padding-right: .5rem;
-}
 
-.company-logo {
-    margin-right: auto;
-}
-
-.buy-now {
+/* .buy-now {
     padding: .5rem 1rem;
     background-color: var(--blue);
     border-radius: 25px;
-}
+} */
+
+
+/* .hire-btn {
+    background-color: var(--blue);
+    border-radius: 20px;
+    color: var(--white);
+    padding: .5rem 1rem;
+} */
 
 .main-header {
     height: 500px;
 }
 
-.hero-section {
-    display: flex;
-    align-items: center;
+
+/* .grid-big {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    margin: auto;
 }
+
+.grid-big .hero-title .title-text {
+    display: grid;
+    justify-content: left;
+} */
+
+
+/* .grid-med {
+    display: grid;
+    justify-content: left;
+    max-width: 900px;
+} */
 
 
 /* header services */
-
-
-/* .header-services {
-    margin-left: auto;
-} */
-
-.google {
-    /* width: 50px;
-    padding: 1rem;
-    border-radius: 25%; */
-    /* position: relative; */
-    top: 100px;
-    right: 620px;
-}
-
-.atlassian {
-    /* width: 60px; */
-    /* position: relative; */
-    top: 90px;
-    right: 440px;
-}
-
-.asana {
-    /* width: 60px; */
-    /* position: relative; */
-    top: 105px;
-    right: 175px;
-}
-
-.paypal {
-    /* width: 65px; */
-    /* position: relative; */
-    top: 255px;
-    right: 510px;
-}
-
-.weave {
-    /* width: 60px; */
-    /* position: relative; */
-    top: 257px;
-    right: 340px;
-}
-
-.google-ads {
-    /* width: 30px; */
-    /* position: relative; */
-    top: 320px;
-    right: 420px;
-}
-
-.calendar {
-    /* width: 50px; */
-    /* position: relative; */
-    top: 340px;
-    right: 205px;
-}
-
-.hero-wrapper .header-services .service-logo {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 66px;
-    width: 66px;
-    border-radius: 50%;
-    box-shadow: 0 3px 10px 2px #e2e2e2;
-}
-
-.header-services .service-logo {
-    height: 90px;
-    width: 90px;
-}
-
-.service-logo img {
-    width: 50%;
-    height: 50%;
-    /* box-shadow: 0px 0px 5px 5px lightgray;
-    border-radius: 50%; */
-    /* padding: 2rem; */
-    /* padding: .5rem; */
-}
 
 .hero-title {
     margin-top: 7rem;
@@ -149,6 +141,160 @@
 .learn-btn {
     margin-left: 2rem;
 }
+
+
+/* services area */
+
+.service-logo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px 2px #e2e2e2;
+    /* padding: .5rem; */
+}
+
+.service-logo img {
+    width: 50%;
+    height: 50%;
+}
+
+.grid-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.service-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.google {
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    top: 50px;
+    right: 375px;
+    height: 60px;
+    width: 60px;
+}
+
+.atlassian {
+    /* grid-column: 2 / 3;
+    grid-row: 2 / 3; */
+    top: 40px;
+    right: 230px;
+    height: 80px;
+    width: 80px;
+}
+
+.asana {
+    /* grid-column: 3 / 4;
+    grid-row: 3 / 4; */
+    top: 50px;
+    right: 25px;
+    height: 80px;
+    width: 80px;
+}
+
+.paypal {
+    /* grid-column: 1 / 2;
+    grid-row: 3 / 4; */
+    top: 205px;
+    right: 325px;
+    height: 70px;
+    width: 70px;
+}
+
+.weave {
+    /* grid-column: 2 / 3;
+    grid-row: 4 / 5; */
+    top: 205px;
+    right: 120px;
+    height: 70px;
+    width: 70px;
+}
+
+.google-ads {
+    /* grid-column: 3 / 4;
+    grid-row: 5 / 6; */
+    top: 325px;
+    right: 220px;
+    height: 60px;
+    width: 60px;
+}
+
+.calendar {
+    /* grid-column: 2 / 3;
+    grid-row: 6 / 7; */
+    top: 350px;
+    right: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+.seperate {
+    margin-top: 50px;
+}
+
+
+/* .google {
+    position: absolute;
+    top: 100px;
+    right: 420px;
+}
+
+.atlassian {
+    position: absolute;
+    top: 90px;
+    right: 270px;
+    height: 80px;
+    width: 80px;
+}
+
+.asana {
+    position: absolute;
+    top: 105px;
+    right: 75px;
+    height: 75px;
+    width: 75px;
+}
+
+.paypal {
+    position: absolute;
+    top: 255px;
+    right: 440px;
+    height: 75px;
+    width: 75px;
+}
+
+.weave {
+    position: absolute;
+    top: 257px;
+    right: 210px;
+    height: 75px;
+    width: 75px;
+}
+
+.google-ads {
+    position: absolute;
+    top: 370px;
+    right: 350px;
+}
+
+.calendar {
+    position: absolute;
+    top: 400px;
+    right: 155px;
+    height: 85px;
+    width: 85px;
+} */
 
 
 /* benefits */
@@ -217,6 +363,8 @@
 
 .started {
     display: flex;
+    background-color: var(--bg-gray);
+    padding-top: 7rem;
 }
 
 .started-title {
@@ -237,6 +385,11 @@
 
 
 /* why area */
+
+
+/* .why>.container {
+    background: var(--bg-gray);
+} */
 
 .why-title {
     text-align: center;
@@ -334,14 +487,14 @@
     margin: 5rem auto;
     background-image: url(/assets/banners/banner_two.jpg);
     height: 470px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .video .play>i {
     position: relative;
     top: 207px;
-    left: 550px;
+    left: 470px;
     background-color: white;
     border: 1px solid white;
     border-radius: 50%;
@@ -535,7 +688,7 @@
 
 .hire-us {
     margin: 0 auto;
-    background-color: var(--dark-blue);
+    background-color: var( --form-bg-blue);
 }
 
 .hire-us h4 {
@@ -588,11 +741,24 @@
     align-items: left;
 }
 
+.name {
+    margin-bottom: 0;
+}
+
+.job-title {
+    margin-top: 0;
+}
+
 .name,
 .job-title {
     font-size: .9rem;
     font-weight: bold;
     margin: 0;
+}
+
+.quote,
+.name {
+    color: white;
 }
 
 .carousel-faces {
