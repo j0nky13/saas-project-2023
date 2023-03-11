@@ -5,17 +5,19 @@
     margin: auto;
 }
 
-@media (max-width: 1084px) {
+
+/* @media (max-width: 1084px) {
     container {
         max-width: 900;
     }
-}
+} */
 
-@media screen and (max-width: 900px) {
+
+/* @media screen and (max-width: 900px) {
     .container {
         max-width: 700px;
     }
-}
+} */
 
 @media (max-width: 800px) {
     .navbar {
@@ -130,6 +132,49 @@
         grid-row: 6 / 7; */
         top: 400px;
         right: 155px;
+    }
+    /* benefit grid */
+    .benefit-grid {
+        display: grid;
+        grid-template-areas: "item1 item2" "item3 item4";
+        margin: auto;
+        gap: 2rem;
+        max-width: 750px;
+        justify-items: center;
+    }
+    .benefit-card {
+        line-height: 1.5;
+        /* border: 1px solid black; */
+        padding: 1.2rem;
+        box-shadow: 2px 3px 7px 5px lightgray;
+        /* margin: auto; */
+    }
+    .benefit-card>h5 {
+        margin: .5rem;
+    }
+    .responsive {
+        grid-area: item1;
+    }
+    .customizable {
+        grid-area: item2;
+    }
+    .premium {
+        grid-area: item3;
+    }
+    .documentation {
+        grid-area: item4;
+    }
+    .benefit-card {
+        max-width: 500px;
+    }
+    .benefit-card>img {
+        width: 55px;
+    }
+    .learn-btn {
+        margin: 0;
+    }
+    .learn-btn a {
+        color: var(--blue);
     }
     /* hubspot with model */
     .hubspot {

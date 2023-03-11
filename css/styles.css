@@ -87,8 +87,7 @@
     height: 500px;
 }
 
-
-/* .grid-big {
+.grid-big {
     display: grid;
     gap: 2rem;
     grid-template-columns: auto;
@@ -96,7 +95,8 @@
     margin: auto;
 }
 
-.grid-big .hero-title .title-text {
+
+/* .grid-big .hero-title .title-text {
     display: grid;
     justify-content: left;
 } */
