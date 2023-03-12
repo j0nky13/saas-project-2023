@@ -24,29 +24,45 @@
         flex-direction: column;
         align-items: flex-start;
     }
+
     .toggle-button {
         display: flex;
     }
+
     .navbar-links {
         display: none;
         width: 100%;
     }
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        align-items: center;
     }
+
     .navbar-links ul li {
         text-align: center;
     }
+
     .navbar-links ul li a {
+        font-size: 1.5rem;
         padding: .5rem 1rem;
+        text-align: center;
     }
+
     .navbar-links.active {
         display: flex;
+    }
+
+    .nav-btn {
+        margin-top: 2rem;
+        max-width: 175px;
+        padding: .3rem .7rem;
     }
 }
 
 @media (min-width: 720px) and (max-width: 1023px) {
+
     /* .container {
         max-width: 600px;
     } */
@@ -57,33 +73,41 @@
         grid-auto-flow: column;
         margin: auto;
     }
+
     .hero-title {
         margin-top: 7rem;
     }
+
     .hero-title h1 {
         text-align: center;
         /* margin: auto; */
     }
+
     .hero-title h1,
     .subtext p {
         margin: 1rem 0;
         line-height: 1.3;
     }
+
     .title-links {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .title-links a {
         align-content: center;
         /* justify-content: left; */
     }
+
     .title-text {
         text-align: center;
     }
+
     .learn-btn {
         margin-left: 2rem;
     }
+
     .grid-services {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -91,57 +115,66 @@
         /* grid-gap: 10px; */
         position: relative;
     }
+
     .google {
         /* grid-column: 1 / 2;
         grid-row: 1 / 2; */
         top: 50px;
         right: 420px;
     }
+
     .atlassian {
         /* grid-column: 2 / 3;
         grid-row: 2 / 3; */
         top: 40px;
         right: 270px;
     }
+
     .asana {
         /* grid-column: 3 / 4;
         grid-row: 3 / 4; */
         top: 60px;
         right: 75px;
     }
+
     .paypal {
         /* grid-column: 1 / 2;
         grid-row: 3 / 4; */
         top: 255px;
         right: 440px;
     }
+
     .weave {
         /* grid-column: 2 / 3;
         grid-row: 4 / 5; */
         top: 257px;
         right: 210px;
     }
+
     .google-ads {
         /* grid-column: 3 / 4;
         grid-row: 5 / 6; */
         top: 370px;
         right: 350px;
     }
+
     .calendar {
         /* grid-column: 2 / 3;
         grid-row: 6 / 7; */
         top: 400px;
         right: 155px;
     }
+
     /* benefit grid */
     .benefit-grid {
         display: grid;
-        grid-template-areas: "item1 item2" "item3 item4";
+        grid-template-areas: "item1 item2""item3 item4";
         margin: auto;
-        gap: 2rem;
+        gap: 1rem;
         max-width: 750px;
         justify-items: center;
     }
+
     .benefit-card {
         line-height: 1.5;
         /* border: 1px solid black; */
@@ -149,43 +182,55 @@
         box-shadow: 2px 3px 7px 5px lightgray;
         /* margin: auto; */
     }
+
     .benefit-card>h5 {
         margin: .5rem;
     }
+
     .responsive {
         grid-area: item1;
     }
+
     .customizable {
         grid-area: item2;
     }
+
     .premium {
         grid-area: item3;
     }
+
     .documentation {
         grid-area: item4;
     }
+
     .benefit-card {
         max-width: 500px;
     }
+
     .benefit-card>img {
         width: 55px;
     }
+
     .learn-btn {
         margin: 0;
     }
+
     .learn-btn a {
         color: var(--blue);
     }
+
     /* hubspot with model */
     .hubspot {
         display: flex;
     }
+
     .hub-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .model-photo {
         background-image: url(/assets/people/woman_three.jpg);
         background-repeat: no-repeat;
@@ -195,6 +240,7 @@
         position: relative;
         left: 25px;
     }
+
     .hubspot-desc {
         max-width: 470px;
         /* font-size: var(--font-size-1); */
@@ -204,10 +250,12 @@
         margin-top: 7rem;
         text-align: center;
     }
+
     .hubspot-desc h5 {
         margin-top: 3rem;
         font-size: 1.3rem;
     }
+
     .hubspot-desc img {
         margin: 0;
         margin-bottom: 1.5rem;
@@ -216,6 +264,7 @@
         justify-content: center; */
         max-width: 100px;
     }
+
     .bg-dots {
         background-image: url(/assets/abstract/dots.svg);
         position: relative;
@@ -226,43 +275,28 @@
         height: 350px;
         z-index: -1;
     }
-    /* video area */
-    .video {
-        margin: 5rem auto;
-        background-image: url(/assets/banners/banner_two.jpg);
-        height: 470px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .video .play>i {
-        position: relative;
-        top: 107px;
-        left: 330px;
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 50%;
-        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
-        padding: 1.5rem;
-        padding-left: 1.8rem;
-        font-size: 1.5rem;
-    }
+
     .customers h3 {
         text-transform: uppercase;
         text-align: center;
         margin-bottom: 2rem;
     }
+
     .customer-logos {
         display: flex;
         justify-content: center;
         /* align-content: space-between; */
     }
+
     .cl-logo-item {
         margin: 0 2rem;
         /* margin-right: 2rem; */
     }
+
     .cl-logo-item:nth-child(5) {
         margin: 0;
     }
+
     .cl-logo-item img {
         width: 75px;
     }
@@ -274,18 +308,22 @@
         text-align: center;
         margin-bottom: 2rem;
     }
+
     .customer-logos {
         display: flex;
         justify-content: center;
         /* align-content: space-between; */
     }
+
     .cl-logo-item {
         margin: 1rem;
         margin-right: 1rem;
     }
+
     .cl-logo-item:nth-child(5) {
         margin: 1rem;
     }
+
     .cl-logo-item img {
         width: 75px;
     }
