@@ -219,6 +219,45 @@
         color: var(--blue);
     }
 
+    .started {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-gray);
+        padding-top: 7rem;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .started-title {
+        text-align: center;
+    }
+
+    .started-title h1 {
+        max-width: 700px;
+        margin-bottom: 2rem;
+        font-weight: 200;
+        font-size: 1.8rem;
+    }
+
+    .started-title .btn {
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .started-img {
+        display: flex;
+        justify-content: center;
+        /* width: 1000px; */
+    }
+
+    /* 
+    .started-img {
+        height: 500px;
+        background-image: url(/assets/banners/banner_one.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    } */
     /* hubspot with model */
     .hubspot {
         display: flex;
@@ -229,6 +268,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: auto;
     }
 
     .model-photo {
@@ -299,6 +339,66 @@
 
     .cl-logo-item img {
         width: 75px;
+    }
+
+    .pricing-area {
+        display: flex;
+        flex-direction: column;
+        /* max-width: 350px; */
+        /* width: 100%; */
+        margin: auto;
+    }
+
+    .pricing-card {
+        max-width: 400px;
+        line-height: 1.5;
+        box-shadow: 3px 0 10px 0px lightgray;
+        padding: 2rem;
+    }
+
+    .pricing-grid {
+        display: grid;
+        grid-template-areas: "grid1 grid2""grid3 grid4";
+        gap: 2rem;
+        align-content: center;
+        line-height: 1.5;
+    }
+
+    .pricing-grid h5 {
+        font-size: 1rem;
+        margin: .8rem 0;
+    }
+
+    .grid-comp {
+        grid-area: grid1;
+    }
+
+    .grid-images {
+        grid-area: grid2;
+    }
+
+    .grid-cancel {
+        grid-area: grid3;
+    }
+
+    .grid-money {
+        grid-area: grid4;
+    }
+
+    .hire-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem 0;
+        margin-bottom: 2rem;
+    }
+
+    .carousel {
+        display: flex;
+        width: 100%;
+        max-width: 350px;
+        margin: 2rem auto;
+        position: relative;
     }
 }
 
