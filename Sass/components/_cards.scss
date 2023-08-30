@@ -1,0 +1,49 @@
+.benefit-grid {
+    display: grid;
+    grid-template-areas: "item1 item2 item3 item4";
+    margin: auto;
+    /* gap: 2rem; */
+    /* max-width: 950px; */
+    justify-items: center;
+}
+
+.benefit-card {
+    line-height: 1.5;
+    /* border: 1px solid black; */
+    padding: 1.2rem;
+    box-shadow: 2px 3px 7px 5px lightgray;
+    /* height: 300px; */
+}
+
+.benefit-card>h5 {
+    margin: .5rem;
+}
+
+.responsive {
+    grid-area: item1;
+}
+
+.customizable {
+    grid-area: item2;
+}
+
+.premium {
+    grid-area: item3;
+}
+
+.documentation {
+    grid-area: item4;
+}
+
+.benefit-card {
+    max-width: 200px;
+}
+
+.benefit-card>img {
+    width: 55px;
+}
+
+.benefit-card>.learn-btn {
+    margin: 0;
+    color: var(--blue);
+}

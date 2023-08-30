@@ -1,0 +1,149 @@
+.service-logo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px 2px #e2e2e2;
+    /* padding: .5rem; */
+}
+
+.service-logo img {
+    width: 50%;
+    height: 50%;
+}
+
+.grid-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.service-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.google {
+    /* grid-column: 1 / 2;
+grid-row: 1 / 2; */
+    top: 50px;
+    right: 375px;
+    height: 60px;
+    width: 60px;
+}
+
+.atlassian {
+    /* grid-column: 2 / 3;
+grid-row: 2 / 3; */
+    top: 40px;
+    right: 230px;
+    height: 80px;
+    width: 80px;
+}
+
+.asana {
+    /* grid-column: 3 / 4;
+grid-row: 3 / 4; */
+    top: 50px;
+    right: 25px;
+    height: 80px;
+    width: 80px;
+}
+
+.paypal {
+    /* grid-column: 1 / 2;
+grid-row: 3 / 4; */
+    top: 205px;
+    right: 325px;
+    height: 70px;
+    width: 70px;
+}
+
+.weave {
+    /* grid-column: 2 / 3;
+grid-row: 4 / 5; */
+    top: 205px;
+    right: 120px;
+    height: 70px;
+    width: 70px;
+}
+
+.google-ads {
+    /* grid-column: 3 / 4;
+grid-row: 5 / 6; */
+    top: 325px;
+    right: 220px;
+    height: 60px;
+    width: 60px;
+}
+
+.calendar {
+    /* grid-column: 2 / 3;
+grid-row: 6 / 7; */
+    top: 350px;
+    right: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+.seperate {
+    margin-top: 50px;
+}
+
+/* .google {
+position: absolute;
+top: 100px;
+right: 420px;
+}
+
+.atlassian {
+position: absolute;
+top: 90px;
+right: 270px;
+height: 80px;
+width: 80px;
+}
+
+.asana {
+position: absolute;
+top: 105px;
+right: 75px;
+height: 75px;
+width: 75px;
+}
+
+.paypal {
+position: absolute;
+top: 255px;
+right: 440px;
+height: 75px;
+width: 75px;
+}
+
+.weave {
+position: absolute;
+top: 257px;
+right: 210px;
+height: 75px;
+width: 75px;
+}
+
+.google-ads {
+position: absolute;
+top: 370px;
+right: 350px;
+}
+
+.calendar {
+position: absolute;
+top: 400px;
+right: 155px;
+height: 85px;
+width: 85px;
+} */

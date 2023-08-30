@@ -1,0 +1,54 @@
+.form {
+    max-width: 500px;
+    text-align: left;
+    padding: 1.5rem;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.form input,
+select,
+textarea {
+    margin: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid lightgray;
+    /* padding: .5rem; */
+}
+
+input {
+    /* height: 2rem; */
+    /* width: 175px; */
+    /* padding: 1rem; */
+}
+
+textarea {
+    resize: none;
+}
+
+.option {
+    height: 2rem;
+    width: 175px;
+}
+
+.checkbox-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* font-size: .8rem; */
+}
+
+.checkbox-info label,
+a {
+    font-size: .8rem;
+}
+
+.form-links {
+    margin-bottom: 1rem;
+}
+
+.form-btn {
+    margin: auto;
+}

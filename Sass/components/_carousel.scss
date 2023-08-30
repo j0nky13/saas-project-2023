@@ -1,0 +1,87 @@
+.carousel {
+    width: 100%;
+    max-width: 350px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 20px;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    position: relative;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.quote-person {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.job-title {
+    margin-top: 0;
+}
+
+.name,
+.job-title {
+    font-size: .9rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.quote,
+.name {
+    color: white;
+}
+
+.carousel-faces {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.face {
+    margin: 0 10px;
+}
+
+.face img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 2px solid #fff; */
+}
+
+.active-face img {
+    width: 50px;
+    height: 50px;
+    /* border: 3px solid #fff; */
+}
+
+.carousel-slide.active-slide {
+    z-index: 1;
+    display: block;
+}
+
+.face.active-face {
+    font-size: 1.2em;
+}
