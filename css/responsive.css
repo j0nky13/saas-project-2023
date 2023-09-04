@@ -6,11 +6,86 @@
 }
 
 
-/* @media (max-width: 1084px) {
-    container {
+@media (max-width: 1054px) {
+
+    /* container {
         max-width: 900;
+    } */
+
+
+    .service-logo {
+        position: absolute;
+        width: 100px;
+        height: 100px;
     }
-} */
+
+    .google {
+
+        top: 50px;
+        right: 375px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .atlassian {
+
+        top: 40px;
+        right: 230px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .asana {
+
+        top: 50px;
+        right: 25px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .paypal {
+
+        top: 205px;
+        right: 325px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .weave {
+
+        top: 205px;
+        right: 120px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .google-ads {
+
+        top: 325px;
+        right: 220px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .calendar {
+
+        top: 350px;
+        right: 15px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .seperate {
+        margin-top: 50px;
+    }
+
+
+
+    section.benefits {
+        margin-top: 30rem;
+    }
+
+}
 
 
 /* @media screen and (max-width: 900px) {
@@ -95,6 +170,8 @@
         line-height: 1.3;
     }
 
+    .hero-section {}
+
     .title-links {
         display: flex;
         align-items: center;
@@ -115,64 +192,24 @@
     }
 
     .grid-services {
-        display: grid;
+        /* display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 120px;
-        /* grid-gap: 10px; */
-        position: relative;
+
+        position: relative; */
     }
 
-    .google {
-        /* grid-column: 1 / 2;
-        grid-row: 1 / 2; */
-        top: 50px;
-        right: 420px;
-    }
+    .header-services {}
 
-    .atlassian {
-        /* grid-column: 2 / 3;
-        grid-row: 2 / 3; */
-        top: 40px;
-        right: 270px;
-    }
 
-    .asana {
-        /* grid-column: 3 / 4;
-        grid-row: 3 / 4; */
-        top: 60px;
-        right: 75px;
-    }
 
-    .paypal {
-        /* grid-column: 1 / 2;
-        grid-row: 3 / 4; */
-        top: 255px;
-        right: 440px;
-    }
-
-    .weave {
-        /* grid-column: 2 / 3;
-        grid-row: 4 / 5; */
-        top: 257px;
-        right: 210px;
-    }
-
-    .google-ads {
-        /* grid-column: 3 / 4;
-        grid-row: 5 / 6; */
-        top: 370px;
-        right: 350px;
-    }
-
-    .calendar {
-        /* grid-column: 2 / 3;
-        grid-row: 6 / 7; */
-        top: 400px;
-        right: 155px;
-    }
 
     /* benefit grid */
+
+
+
     .benefit-grid {
+
         display: grid;
         grid-template-areas: "item1 item2""item3 item4";
         margin: auto;
@@ -390,6 +427,7 @@
     .grid-money {
         grid-area: grid4;
     }
+
 
     .hire-flex {
         display: flex;

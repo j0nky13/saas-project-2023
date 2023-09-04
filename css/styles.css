@@ -745,6 +745,7 @@
     /* hire us area */
 
     .hire-us {
+        display: flex;
         margin: 0 auto;
         background-color: var(--form-bg-blue);
     }
@@ -864,6 +865,7 @@
     }
 
     .form {
+        margin: auto;
         max-width: 500px;
         text-align: left;
         padding: 1.5rem;
@@ -878,7 +880,7 @@
         border-radius: 3px;
         border: none;
         border: 1px solid lightgray;
-        /* padding: .5rem; */
+        padding: .5rem;
     }
 
     input {
@@ -911,7 +913,9 @@
     }
 
     .form-links {
+        margin: auto;
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     .form-btn {
